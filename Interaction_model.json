@@ -1,0 +1,178 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "report card",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "roll",
+                    "slots": [
+                        {
+                            "name": "hello",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "number {hello}",
+                        "roll number {hello}",
+                        "my number is {hello}",
+                        "that's {hello}",
+                        "that is {hello}",
+                        "roll number is {hello}",
+                        "my roll number is {hello}",
+                        "{hello}",
+                        "it is {hello}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StartOverIntent",
+                    "samples": []
+                },
+                {
+                    "name": "semester",
+                    "slots": [
+                        {
+                            "name": "sem",
+                            "type": "semester"
+                        }
+                    ],
+                    "samples": [
+                        "{sem} semester",
+                        "semester {sem}",
+                        "{sem} sem",
+                        "sem {sem}",
+                        "{sem}"
+                    ]
+                },
+                {
+                    "name": "type",
+                    "slots": [
+                        {
+                            "name": "typeslot",
+                            "type": "type"
+                        }
+                    ],
+                    "samples": [
+                        "{typeslot} results",
+                        "{typeslot} result",
+                        "{typeslot} wise",
+                        "{typeslot}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.RepeatIntent",
+                    "samples": []
+                }
+            ],
+            "types": [
+                {
+                    "name": "semester",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "tenth"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ninth"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "eighth"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "seventh"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sixth"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "fifth"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "fourth"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "third"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "second"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "first"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "type",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "overall"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "complete"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sem"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "semester"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
